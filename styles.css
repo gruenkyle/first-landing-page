@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+.menu-container{
+    color: whitesmoke;
+    background-color: #1F2937;
+    padding: 20px 0;
+
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    border: 0px solid #ffff;
+
+    width: 900px; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-plate{
+    border: 0px solid #ffff;
+
+    font-size: 32px; 
+    color: #F9FAF8;
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.links{
+    border: 0px solid #ffff;
+    margin-left: 10px; 
+
+    font-size: 20px;
+    color: #E5E7EB;
+
+    display: flex; 
+    justify-content: flex-end;  
+    align-items: center; 
+}
+
+.portfolio{
+    padding-right: 30px;
+    padding-left: 30px; 
+}
+
+.contact{
+    padding-right: 30px;
+    padding-left: 30px; 
+}
+
+.about-me{
+    padding-right: 30px;
+    padding-left: 30px; 
+}
+
+
