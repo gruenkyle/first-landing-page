@@ -81,6 +81,7 @@
     display: flex; 
     justify-content: flex-start;
     padding: 50px;
+    margin-top: 50px;
     margin-left: 50px; 
 }
 
@@ -111,4 +112,21 @@
 
     flex-direction: column;
     margin-left: 25px; 
+}
+
+.photo-view{
+    border: 0px solid #ffff;
+    background-color: #1F2937;
+
+    display: flex; 
+    justify-content: center; 
+}
+
+.photo-group{
+    border: 0px solid #ffff;
+    background-color: #1F2937;
+
+    display: flex; 
+    justify-content: center; 
+    flex-direction: row; 
 }
