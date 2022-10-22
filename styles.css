@@ -15,8 +15,8 @@
 
 .menu{
     border: 0px solid #ffff;
+    width: 1700px;
 
-    width: 900px; 
     display: flex;
     justify-content: space-between;
 }
@@ -28,6 +28,7 @@
     color: #F9FAF8;
     display: flex;
     justify-content: flex-start;
+    align-items: flex-start;
 
 }
 
@@ -40,7 +41,7 @@
 
     display: flex; 
     justify-content: flex-end;  
-    align-items: center; 
+    align-items: flex-end;
 }
 
 .portfolio{
@@ -58,4 +59,56 @@
     padding-left: 30px; 
 }
 
+.header-container{
+    color: whitesmoke;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-content: stretch;
+    
+    flex: 1 1 1;
+    padding-bottom: 100px; 
+}
 
+.header{
+    border: 0px solid #ffff;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.landing-img{
+    border: 0px solid #ffff;
+    display: flex; 
+    justify-content: flex-start;
+    padding: 50px;
+    margin-left: 50px; 
+}
+
+.infographic{
+    border: 0px solid #ffff;
+    background-color: #1F2937;
+    color: whitesmoke;
+    display:flex; 
+    justify-content: flex-start;
+    flex-direction: column; 
+    align-content: stretch; 
+}
+
+.logo{
+    display:flex; 
+    justify-content: flex-start;
+
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.intro-paragraph{
+    display:flex; 
+    justify-content: flex-start;
+
+    font-size: 24px; 
+    width: 1000px; 
+
+    flex-direction: column;
+    margin-left: 25px; 
+}
